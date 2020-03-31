@@ -1,0 +1,5 @@
+def reverse(st):
+    st1=st.split()
+    st1.reverse()
+    st1=' '.join(st1)
+    return st1
