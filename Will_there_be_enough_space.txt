@@ -1,0 +1,7 @@
+def enough(cap, on, wait):
+    value=cap-on-wait
+    if value>=0:
+        return 0
+    else:
+        value*=-1
+        return value
