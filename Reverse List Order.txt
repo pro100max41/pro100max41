@@ -1,0 +1,10 @@
+def reverse_list(l):
+
+    arr=[]
+    
+    for i in reversed(l):
+        arr.append(i)
+
+
+
+    return arr
