@@ -1,0 +1,30 @@
+def count_positives_sum_negatives(arr):
+    
+    count=0
+    sum_belove_0=0
+    
+    if not arr:
+        return arr
+    
+    
+    
+    
+    for x in arr:
+        if x>0:
+            count+=1
+        if x<=0:
+            sum_belove_0+=x
+        
+    
+    array=[]
+    
+    
+    if count>=0 or sum_belove_0<=0:
+        array.append(count)
+        array.append(sum_belove_0)
+    
+    
+    
+    
+    
+    return array
