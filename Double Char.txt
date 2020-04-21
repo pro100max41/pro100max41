@@ -1,0 +1,7 @@
+def double_char(s):
+    
+    l=''
+    for i in range(len(s)):
+        l=l+s[i]+s[i]
+    
+    return l
