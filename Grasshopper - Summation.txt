@@ -1,0 +1,14 @@
+def summation(num):
+    
+    lst=[]
+    
+    x=1
+    sum=0
+    
+    for x in range(num+1):
+        sum=sum+x
+        
+        
+        
+    return sum
+    
