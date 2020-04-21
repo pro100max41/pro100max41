@@ -1,0 +1,9 @@
+def shorten_to_date(long_date):
+    line=''
+    
+    for i in range(len(long_date)):
+        
+        
+        if long_date[i]==',':
+            return line
+        line=line+long_date[i]
