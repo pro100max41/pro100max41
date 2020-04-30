@@ -85,7 +85,7 @@ def func_weather(message):
 def func_currency(message):
 	print(message.text)
 	print(value)
-	bot.send_message(message.chat.id,f"Dollar: {value}")
+	bot.send_message(message.chat.id,f"Dolar: {value}")
 
 
 	
